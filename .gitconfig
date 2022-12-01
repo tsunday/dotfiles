@@ -1,0 +1,9 @@
+[user]
+	name = Tomasz Niedziela-Brach
+	email = niedziela.brach@gmail.com
+[push]
+	default = simple
+[alias]
+	checkoutr = checkout
+[init]
+	defaultBranch = main
