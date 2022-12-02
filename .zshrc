@@ -1,5 +1,4 @@
-#eval "$(pyenv init -)" If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
+# [Read when interactive]
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/tnb/.oh-my-zsh"
@@ -114,6 +113,9 @@ autoload -Uz compinit && compinit -i
 # export WORKON_HOME=$HOME/.virtualenvs
 # source virtualenvwrapper.sh
 
+# Poetry
+# export PATH="$HOME/.poetry/bin:$PATH"
+
 # Alias
 alias code="open -a Visual\ Studio\ Code"
 alias ls="ls --group-directories-first --color=tty"
@@ -121,7 +123,6 @@ alias ls="ls --group-directories-first --color=tty"
 # Created by `userpath` on 2020-08-08 19:11:36
 export PATH="$PATH:/Users/tnb/.local/bin"
 
-# export PATH="$HOME/.poetry/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
