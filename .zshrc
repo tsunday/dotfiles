@@ -118,7 +118,7 @@ autoload -Uz compinit && compinit -i
 
 # Alias
 alias code="open -a Visual\ Studio\ Code"
-alias ls="ls --group-directories-first --color=tty"
+alias ls="gls --group-directories-first --color=tty"
 
 # Created by `userpath` on 2020-08-08 19:11:36
 export PATH="$PATH:/Users/tnb/.local/bin"
