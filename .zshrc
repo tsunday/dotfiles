@@ -128,10 +128,10 @@ export PATH="$PATH:/Users/tnb/.local/bin"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/tnb/Work/nursa/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tnb/Work/nursa/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/tnb/Applications/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tnb/Applications/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/tnb/Work/nursa/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tnb/Work/nursa/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/tnb/Applications/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tnb/Applications/google-cloud-sdk/completion.zsh.inc'; fi
 
 # NVM
 
